@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustAProgrammer.AspNetCore.Auth.SslProxy", "JustAProgrammer.AspNetCore.Auth.SslProxy\JustAProgrammer.AspNetCore.Auth.SslProxy.csproj", "{C4E61F5E-FE1E-421C-AE66-C9459F9E1982}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{72F397DA-96E0-41A9-ADB5-FF53A4BDDA09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E61F5E-FE1E-421C-AE66-C9459F9E1982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E61F5E-FE1E-421C-AE66-C9459F9E1982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E61F5E-FE1E-421C-AE66-C9459F9E1982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E61F5E-FE1E-421C-AE66-C9459F9E1982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F397DA-96E0-41A9-ADB5-FF53A4BDDA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F397DA-96E0-41A9-ADB5-FF53A4BDDA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F397DA-96E0-41A9-ADB5-FF53A4BDDA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F397DA-96E0-41A9-ADB5-FF53A4BDDA09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {403043A9-D4CA-408D-B74A-ECC29AEB6FAA}
+	EndGlobalSection
+EndGlobal

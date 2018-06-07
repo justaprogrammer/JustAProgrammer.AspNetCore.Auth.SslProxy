@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  justaprogrammer.aspnetcore.auth.sslproxy:
+    image: justaprogrammeraspnetcoreauthsslproxy
+    build:
+      context: .
+      dockerfile: JustAProgrammer.AspNetCore.Auth.SslProxy/Dockerfile
