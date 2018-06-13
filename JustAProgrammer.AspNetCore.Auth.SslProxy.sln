@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustAProgrammer.AspNetCore.Auth.SslProxy", "JustAProgrammer.AspNetCore.Auth.SslProxy\JustAProgrammer.AspNetCore.Auth.SslProxy.csproj", "{C4E61F5E-FE1E-421C-AE66-C9459F9E1982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JustAProgrammer.AspNetCore.Auth.SslProxy", "JustAProgrammer.AspNetCore.Auth.SslProxy\JustAProgrammer.AspNetCore.Auth.SslProxy.csproj", "{C4E61F5E-FE1E-421C-AE66-C9459F9E1982}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{72F397DA-96E0-41A9-ADB5-FF53A4BDDA09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E50928C-5E81-48BC-BC66-57DC85F86D93}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

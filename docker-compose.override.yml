@@ -1,8 +1,14 @@
-version: '3'
+version: '3.4'
 
 services:
-  justaprogrammer.aspnetcore.auth.sslproxy:
+  web:
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      ASPNETCORE_ENVIRONMENT: "Development"
+      #AzureAd__ForceSslRedirectUri: "true"
+      #AzureAd__ForceSslRedirectPort: "44320"
+  ssl:
+    environment:
+      DOMAIN: sslproxy.aspnetcore.localtest.me
+      SSL_PORT: 44330
     ports:
-      - "80"
+      - "${SSL_PORT}:${SSL_PORT}"
